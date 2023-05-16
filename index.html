@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adventure</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctnn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="images/660376.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World </h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <!-- Events section -->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/nathan-dumlao-6dmx8YnkPGo-unsplash.jpg" alt="">
+                <h4>Deep forest</h4>
+                <p>Nothing can calm you down the way nature does!!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/mojtaba-mohtashami-JILJpKsb3Zs-unsplash.jpg" alt="">
+                <h4>Sunsets</h4>
+                <p>What could be more beautiful than a perfect sunset!!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>There is a part of life where you just want to explore the world and find the true self.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tour">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero cupiditate, quod explicabo totam
+                    magnam voluptatum minima similique iusto saepe, sapiente soluta odit doloremque rerum, repellendus
+                    fugit asperiores. Unde, ullam minima?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/kalen-emsley-7bwQXzbF6KE-unsplash.jpg" alt="">
+                    <img src="images/kalen-emsley-oY0EDfHGPH4-unsplash.jpg" alt="">
+                    <img src="images/neom-ua-yfFmM_UU-unsplash.jpg" alt="">
+                    <img src="images/usukhbayar-gankhuyag-Mf6JQramVZs-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p> 510 RNT NIT Agartala, Tripura, India | Phone:- 9998888000 | Email:-travel@world.com</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
